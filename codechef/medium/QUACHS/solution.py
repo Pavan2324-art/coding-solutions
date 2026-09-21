@@ -1,3 +1,3 @@
 # cook your dish here
-x,y,z=int(input()),int(input()),int(input())
+x,y,z=map(int,input().split())
 print(x+y-2*z)
