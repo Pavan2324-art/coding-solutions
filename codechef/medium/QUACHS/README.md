@@ -71,11 +71,11 @@ Therefore, $100-40=60$ chips remain.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:34:36.291Z  
+**Submitted:** 2026-09-21T14:35:20.647Z  
 
 ```py
 # cook your dish here
-x,y,z=int(input()),int(input()),int(input())
+x,y,z=map(int,input().split())
 print(x+y-2*z)
 ```
 
